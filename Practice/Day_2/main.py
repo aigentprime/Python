@@ -943,6 +943,7 @@ b = Account("Bob", 50)
 
 transfer(a, b, 120)
 print(a.balance, b.balance)
+
 class Account:
     def __init__(self, owner, balance):
         self.owner = owner
